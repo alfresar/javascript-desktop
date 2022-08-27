@@ -1,0 +1,22 @@
+{
+  "name": "javascript-desktop",
+  "version": "1.0.0",
+  "description": "Proyecto para arquitectura de software UFPS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arqui-soft-2022/javascript-desktop.git"
+  },
+  "author": "Martin de Jesus Medina Ruvian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arqui-soft-2022/javascript-desktop/issues"
+  },
+  "homepage": "https://github.com/Arqui-soft-2022/javascript-desktop#readme",
+  "devDependencies": {
+    "electron": "^20.1.0"
+  }
+}
