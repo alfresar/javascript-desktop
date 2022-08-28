@@ -11,21 +11,30 @@
 <body>
     <header>
         <div class="header-container">
-            <img src="" alt="">
-            <p>Username</p>
+            <a href="">
+                <div class="container-user-info">
+                    <img class="user-icon" src="img/user_icon.png" alt="">
+                    <p>Username</p>
+                </div>
+            </a>
         </div>
     </header>
     <div class="main-body">
-        <div class="box-container">
-               <p>Sitio web (URL)</p>
-                <input id="inputUrl" type="text">
-                <button class="button">Generar código QR</button>
+        <div class="body-child">
+            <div class="input-box">
+                <p class="title">Genere su código QR</p>
+                   <div class="box-container-url">
+                       <p>Sitio web (URL)</p>
+                        <input id="inputUrl" type="text">
+                        <button class="button">Generar código QR</button>
+                   </div>
             
-        </div>
-        <div class="box-container">
-            <p>Código QR</p>
-            <img src="" alt="">
-            <button class="button">Exportar QR</button>
+            </div>
+            <div class="box-container-qr">
+                <h2>Código QR</h1>
+                <img class="qr-img" src="img/qr_icon.png" alt="">
+                <button class="button">Exportar QR</button>
+            </div>
         </div>
     </div>
 </body>
